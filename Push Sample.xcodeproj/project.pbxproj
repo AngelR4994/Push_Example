@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		4B6189471D7C83380021461D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6189461D7C83380021461D /* main.m */; };
 		4B61894A1D7C83380021461D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6189491D7C83380021461D /* AppDelegate.m */; };
-		4B61894D1D7C83380021461D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B61894C1D7C83380021461D /* ViewController.m */; };
+		4B61894D1D7C83380021461D /* Start.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B61894C1D7C83380021461D /* Start.m */; };
 		4B6189501D7C83380021461D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B61894E1D7C83380021461D /* Main.storyboard */; };
 		4B6189531D7C83380021461D /* Push_Sample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4B6189511D7C83380021461D /* Push_Sample.xcdatamodeld */; };
 		4B6189551D7C83380021461D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B6189541D7C83380021461D /* Assets.xcassets */; };
@@ -21,8 +21,8 @@
 		4B6189461D7C83380021461D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4B6189481D7C83380021461D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4B6189491D7C83380021461D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4B61894B1D7C83380021461D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4B61894C1D7C83380021461D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4B61894B1D7C83380021461D /* Start.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Start.h; sourceTree = "<group>"; };
+		4B61894C1D7C83380021461D /* Start.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Start.m; sourceTree = "<group>"; };
 		4B61894F1D7C83380021461D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4B6189521D7C83380021461D /* Push_Sample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Push_Sample.xcdatamodel; sourceTree = "<group>"; };
 		4B6189541D7C83380021461D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,10 +60,8 @@
 		4B6189441D7C83380021461D /* Push Sample */ = {
 			isa = PBXGroup;
 			children = (
-				4B6189481D7C83380021461D /* AppDelegate.h */,
-				4B6189491D7C83380021461D /* AppDelegate.m */,
-				4B61894B1D7C83380021461D /* ViewController.h */,
-				4B61894C1D7C83380021461D /* ViewController.m */,
+				4B6189601D7C838D0021461D /* Controllers */,
+				4B61895F1D7C83870021461D /* Main */,
 				4B61894E1D7C83380021461D /* Main.storyboard */,
 				4B6189541D7C83380021461D /* Assets.xcassets */,
 				4B6189561D7C83380021461D /* LaunchScreen.storyboard */,
@@ -80,6 +78,24 @@
 				4B6189461D7C83380021461D /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4B61895F1D7C83870021461D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4B6189481D7C83380021461D /* AppDelegate.h */,
+				4B6189491D7C83380021461D /* AppDelegate.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		4B6189601D7C838D0021461D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4B61894B1D7C83380021461D /* Start.h */,
+				4B61894C1D7C83380021461D /* Start.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,7 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B61894D1D7C83380021461D /* ViewController.m in Sources */,
+				4B61894D1D7C83380021461D /* Start.m in Sources */,
 				4B6189531D7C83380021461D /* Push_Sample.xcdatamodeld in Sources */,
 				4B61894A1D7C83380021461D /* AppDelegate.m in Sources */,
 				4B6189471D7C83380021461D /* main.m in Sources */,
